@@ -11,4 +11,6 @@ if(isset($_POST["submit"]))
     include "../classes/signup.classes.php";
     include "../classes/signup-contr.php";
     $signup = new SignupContr($uid, $pwd, $pwdRepeat, $email);
+
+    echo "hello world";
 }
