@@ -16,14 +16,14 @@ session_start();
         }
 
         button, a {
-            background-color: #f4511e;
+            background-color: #545457;
             border: none;
             color: white;
             padding: 16px 32px;
             text-align: center;
             font-size: 16px;
             margin: 4px 2px;
-            opacity: 0.6;
+            opacity: 0.8;
             transition: 0.3s;
             display: inline-block;
             text-decoration: none;
@@ -34,6 +34,7 @@ session_start();
             border-radius: 30px;
             background-color: #000000;
             padding: 16px 32px;
+            opacity: 0.9;
 
 
         }
